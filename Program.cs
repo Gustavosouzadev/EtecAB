@@ -6,10 +6,13 @@ namespace EtecAB
     {
         static void Main(string[] args)
         {
+            Console.Beep();
+            Console.Clear();
+            
             string cidade = "Mongaguá";
             string estado = "SP";
             
-            string mensagem = $"A Etec ADolpho Berezin Fica Em ";
+            string mensagem = $"A Etec ADolpho Berezin Fica Em: ";
             string mensagem2 =$"{cidade}/{estado}.";
             string separador = $"-------------------------------------------";
             string endereço = $"Av. Monteiro Lobato, 8000 - Bal. Jussara. 11730-000";
@@ -30,6 +33,7 @@ namespace EtecAB
             Console.WriteLine(endereço);
             
             Console.ResetColor();
+            Console.Beep();
         }
     }
 }
